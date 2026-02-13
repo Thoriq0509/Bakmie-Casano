@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Masuk Akun - Bakmie Casano</title>
+    <link rel="icon" type="image/png" href="images/casanoo.png">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-merah navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/casanoo.png" alt="" style="width: 40px;" class="rounded-pill me-3">BAKMIE CASANO
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Beranda.html">Beranda</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Keranjang</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+        </div>
+  </nav>
+  <br>
+
+  <!-- <div class="container">
+    <div class="row align-items-center">
+        <img src="images/casanoo.png" class="col-lg-6" style="width: 400px;">
+            <div class="col-lg-6">
+                <div class="card p-5" style="width: 500px;">
+                                <div class="text-daftar text-center ">
+                                    <div class="text-daftar mt-3 "><h2>Masuk:</h2></div>
+                                    <div class="text-link"><h7><a href="daftar.html">Belum punya akun? Daftar</a></h7></div>
+                                </div>
+                                <br>
+                    <form action="/action_page.php">                        
+                        
+                        <div class="d-grid mb-3">
+                            <a href="google-login.php" class="btn btn-light border d-flex align-items-center justify-content-center">
+                                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" style="width:20px; margin-right:10px;">
+                                Daftar dengan Google
+                            </a>
+                        </div>
+                        <div class="text-center my-3">
+                            <div class="d-flex align-items-center">
+                                <hr class="flex-grow-1">
+                                <span class="mx-2 text-muted">atau</span>
+                                <hr class="flex-grow-1">
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="Username" class="form-label">Username:</label>
+                            <input type="Username" class="form-control" id="Username" placeholder="Enter Username" name="Username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Masuk</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+
+        <div class="col-lg-5 mb-4">
+            <div class="card p-4 text-center shadow">
+                <img src="images/casanoo.png"
+                     class="img-fluid mx-auto"
+                     style="max-width: 300px;">
+                <h4 class="mt-3">BAKMIE CASANO</h4>
+                <p class="text-muted">Nikmati bakmie terbaik setiap hari</p>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card p-5 shadow">
+                <div class="text-center">
+                    <h2>Masuk</h2>
+                    <small>
+                        <a href="daftar.html">Belum punya akun? Daftar</a>
+                    </small>
+                </div>
+
+                <form action="/action_page.php">
+
+                    <div class="d-grid mb-3 mt-3">
+                        <a href="google-login.php"
+                           class="btn btn-light border d-flex align-items-center justify-content-center">
+                            <img src="https://developers.google.com/identity/images/g-logo.png"
+                                 style="width:20px; margin-right:10px;">
+                            Masuk dengan Google
+                        </a>
+                    </div>
+
+                    <div class="d-flex align-items-center my-3">
+                        <hr class="flex-grow-1">
+                        <span class="mx-2 text-muted">atau</span>
+                        <hr class="flex-grow-1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" placeholder="Enter Username">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter password">
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Remember me</label>
+                    </div>
+
+                    <button type="button"
+                            onclick="window.location.href='Beranda.html'"
+                            class="btn btn-primary w-100">
+                        Masuk
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+    <div class="container-fluid pt-3">
+      <div class="row">
+
+        <div class="col-lg-6 mb-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/casanoo.png" alt="Bakmie Casano" class="footer-logo me-2">
+            <h5 class="mb-0 fw-bold">BAKMIE CASANO</h5>
+          </div>
+          <p class="footer-text">
+            Bakmie Casano adalah brand kuliner yang menyajikan bakmie berkualitas
+            dengan cita rasa khas. Berdiri sejak 2024, kami berkomitmen menghadirkan
+            menu yang lezat, higienis, dan terjangkau untuk semua kalangan.
+          </p>
+
+          <a href="#" class="btn btn-outline-dark btn-sm">
+            Baca lebih banyak tentang kami
+          </a>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Halaman</h6>
+          <ul class="footer-list">
+            <li><a href="#">Login / Daftar</a></li>
+            <li><a href="#">Cara Order</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+            <li><a href="#">Syarat & Ketentuan</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Kontak</h6>
+
+          <div class="footer-contact mb-2">
+            <i class="fa-brands fa-whatsapp fa-bounce fa-2x" style="color: green;"></i>
+            <span>+62 812-3456-7890</span>
+          </div>
+
+          <div class="footer-contact mb-4">
+            <i class="fa-regular fa-envelope fa-fade fa-2x" style="color:forestgreen;"></i>
+            <span>BakmieCasano24@Gmail.com</span>
+          </div>
+
+          <h6 class="fw-bold mb-2">Sosial Media</h6>
+          <div class="sosmed">
+            <i class="fa-brands fa-facebook fa-2x fa-shake" style="color:#1877f2;"></i>
+            <i class="fa-brands fa-instagram fa-2x fa-shake" style="color:#e4405f;"></i>
+            <i class="fa-brands fa-tiktok fa-2x fa-shake"></i>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom text-center py-3">
+      © 2026 bakmiecasano.id.
+    </div>
+  </footer>
+
+</body>
+</html>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="fontawesome/js/all.min.js"></script>

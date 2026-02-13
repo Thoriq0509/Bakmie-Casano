@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akun Pelanggan - Bakmie Casano</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/casanoo.png">
+
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .navbar-custom {
+            background-color: #8B0000;
+        }
+        .navbar-custom .nav-link,
+        .navbar-custom .navbar-brand {
+            color: white;
+            font-weight: 500;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #ffd6d6;
+        }
+        .card-akun {
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #8B0000;
+        }
+        .btn-custom {
+            background-color: #8B0000;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #a30000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/casanoo.png" alt="" style="width: 40px;" class="rounded-pill me-3">BAKMIE CASANO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Beranda.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Keranjang</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="akun.html">Akun</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-akun p-4 text-center">
+                    <img src="images/faiz.jpeg" alt="Profile" class="profile-img mx-auto mb-3">
+                    <h4>FAIZ AT THORIQ</h4>
+                    <p class="text-muted">faizatthoriq09@gmail.com</p>
+                    <button class="btn btn-custom w-100">Edit Profil</button>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card card-akun p-4 mb-4">
+                    <h5 class="mb-3">Informasi Akun</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" value="Faiz At Thoriq">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" value="faizatthoriq09@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">No. HP</label>
+                            <input type="text" class="form-control" placeholder="085950314932">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Alamat</label>
+                            <textarea class="form-control" rows="3">Singaparna</textarea>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <button class="btn btn-custom">
+                                Simpan Perubahan
+                            </button>
+                            <a href="login.html" class="btn btn-outline-danger">
+                                <i class="fa-solid fa-right-from-bracket me-1"></i>
+                                Log Out
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+    <div class="container-fluid pt-3">
+      <div class="row">
+
+        <div class="col-lg-6 mb-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/casanoo.png" alt="Bakmie Casano" class="footer-logo me-2">
+            <h5 class="mb-0 fw-bold">BAKMIE CASANO</h5>
+          </div>
+          <p class="footer-text">
+            Bakmie Casano adalah brand kuliner yang menyajikan bakmie berkualitas
+            dengan cita rasa khas. Berdiri sejak 2024, kami berkomitmen menghadirkan
+            menu yang lezat, higienis, dan terjangkau untuk semua kalangan.
+          </p>
+
+          <a href="#" class="btn btn-outline-dark btn-sm">
+            Baca lebih banyak tentang kami
+          </a>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Halaman</h6>
+          <ul class="footer-list">
+            <li><a href="#">Login / Daftar</a></li>
+            <li><a href="#">Cara Order</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+            <li><a href="#">Syarat & Ketentuan</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Kontak</h6>
+
+          <div class="footer-contact mb-2">
+            <i class="fa-brands fa-whatsapp fa-bounce fa-2x" style="color: green;"></i>
+            <span>+62 812-3456-7890</span>
+          </div>
+
+          <div class="footer-contact mb-4">
+            <i class="fa-regular fa-envelope fa-fade fa-2x" style="color:forestgreen;"></i>
+            <span>BakmieCasano24@Gmail.com</span>
+          </div>
+
+          <h6 class="fw-bold mb-2">Sosial Media</h6>
+          <div class="sosmed">
+            <i class="fa-brands fa-facebook fa-2x fa-shake" style="color:#1877f2;"></i>
+            <i class="fa-brands fa-instagram fa-2x fa-shake" style="color:#e4405f;"></i>
+            <i class="fa-brands fa-tiktok fa-2x fa-shake"></i>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom text-center py-3">
+      © 2026 bakmiecasano.id.
+    </div>
+  </footer>
+
+  
+</body>
+</html>
+<script src="bootstrap/js/bootstrap.bundle.min.js">
+</script><script src="fontawesome/js/all.min.js"></script>   
